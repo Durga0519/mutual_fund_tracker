@@ -77,8 +77,8 @@ def display_changes(changes):
 
 def main():
     # File paths for the September and November datasets
-    file_nov = 'ZN250 - Monthly Portfolio November 2024.xlsx'  # Path to November file
-    file_sep = 'ZN250 - Monthly Portfolio September 2024.xlsx'  # Path to September file
+    file_nov = 'data/ZN250 - Monthly Portfolio November 2024.xlsx'  # Path to November file
+    file_sep = 'data/ZN250 - Monthly Portfolio September 2024.xlsx'  # Path to September file
 
     fund_name = input("Enter Fund Name: ")  # The mutual fund you're tracking (e.g., 'Macrotech Developers Limited')
     
